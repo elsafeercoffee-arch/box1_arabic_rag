@@ -6,3 +6,6 @@ python-dotenv==1.0.1
 slowapi==0.1.9
 requests==2.32.3
 pytest==8.3.3
+git add requirements.txt
+git commit -m "fix: pin httpx<0.28 for starlette 0.27 TestClient"
+git push
